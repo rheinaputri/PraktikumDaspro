@@ -16,18 +16,27 @@ public class PemilihanSwitch26{
         switch (operator) {
             case '+' :
                 hasil = angka1 + angka2;
+                System.out.println(angka1 + " " + operator +  " "  + angka2 + " = " + hasil);
                 break;
             case '-' :
                 hasil = angka1 - angka2;
+                System.out.println(angka1 + " " + operator +  " "  + angka2 + " = " + hasil);
                 break;
             case '*' :
                 hasil = angka1 * angka2;
+                System.out.println(angka1 + " " + operator +  " "  + angka2 + " = " + hasil);
                 break;
             case '/' :
                 hasil = angka1 / angka2;
+                System.out.println(angka1 + " " + operator +  " "  + angka2 + " = " + hasil);
                 break;
+            default :
+                System.out.println("Operator yang dipilih tidak sesuai");
 
         }
-          System.out.println(angka1 + operator  + angka2 + " = " + hasil);
     }
 }
+// langkah 8
+        //   System.out.println(angka1 + operator + angka2 + " = " + hasil);
+        // langkah 10
+        //   System.out.println(angka1 + " " + operator +  " "  + angka2 + " = " + hasil);
