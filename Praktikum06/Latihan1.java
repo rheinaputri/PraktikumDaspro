@@ -25,7 +25,5 @@ public class Latihan1{
         else{
             System.out.println("Bilangan terbesar bil1");
         }
-
-
     }
 }
